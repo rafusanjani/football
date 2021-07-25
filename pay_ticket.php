@@ -101,7 +101,7 @@ require 'config.php';
 
 			        data: {  
 
-			          tx_ref: "<?php echo "Movie-".time() ?>",
+			          tx_ref: "<?php echo "Match-".time() ?>",
 
 			          plan_id: $("#ticket_id").val(), 
 
@@ -151,7 +151,7 @@ require 'config.php';
 			        // close modal
 			      },
 			      customizations: {
-			        title: "Movie ticket for (THE FOREVER PURGE) HORROR",
+			        title: "Football ticket UG VS HARAMBE STARS",
 			        description: "Payment for movie",
 			        logo: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vectors%2Fcinema-logo-vectors&psig=AOvVaw25fgpDn-vRg4i068JmYnSG&ust=1626955202609000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLD81oeN9PECFQAAAAAdAAAAABAD",
 			      },
